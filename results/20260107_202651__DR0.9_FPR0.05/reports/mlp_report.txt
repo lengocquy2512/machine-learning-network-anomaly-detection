@@ -1,0 +1,19 @@
+=== MLP REPORT ===
+Constraints: DR>=0.9, FPR<=0.05
+Chosen threshold: 0.707805 | ok_constraints=True
+ATTACK_WEIGHT=1.0
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.8660    0.9498    0.9060     11200
+           1     0.9753    0.9310    0.9527     23869
+
+    accuracy                         0.9370     35069
+   macro avg     0.9207    0.9404    0.9293     35069
+weighted avg     0.9404    0.9370    0.9378     35069
+
+
+Confusion matrix [[TN FP],[FN TP]]:
+[[10638   562]
+ [ 1646 22223]]

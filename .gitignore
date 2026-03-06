@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+*.joblib
+unsw_streamlit_best_model_app/venv/
+unsw_streamlit_best_model_app/utils/__pycache__/

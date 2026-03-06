@@ -1,0 +1,24 @@
+XGB Feature Importance (Top 20) - WITH sttl
+Top 20
+
+         feature  importance
+            sttl 2392.077148
+    ct_state_ttl  679.351746
+       proto_arp  158.536880
+       state_REQ  142.634460
+ is_sm_ips_ports  107.402832
+       state_CON  102.759193
+            swin  101.040367
+      ct_srv_dst   89.905281
+    proto_others   88.969643
+       state_FIN   82.499275
+     service_dns   70.112526
+ct_dst_sport_ltm   65.841858
+       proto_udp   62.158024
+          sbytes   47.972755
+           smean   39.155666
+       proto_tcp   33.482456
+           dloss   27.676414
+     service_ftp   26.805683
+      proto_ospf   23.185717
+    service_http   23.124800

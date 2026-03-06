@@ -1,0 +1,18 @@
+=== KNN REPORT ===
+Constraints: DR>=0.9, FPR<=0.05
+Chosen threshold: 0.720480 | ok_constraints=True
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.8555    0.9502    0.9004     11200
+           1     0.9753    0.9247    0.9494     23869
+
+    accuracy                         0.9328     35069
+   macro avg     0.9154    0.9374    0.9249     35069
+weighted avg     0.9371    0.9328    0.9337     35069
+
+
+Confusion matrix [[TN FP],[FN TP]]:
+[[10642   558]
+ [ 1797 22072]]

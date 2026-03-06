@@ -1,0 +1,18 @@
+=== XGBOOST REPORT ===
+Constraints: DR>=0.9, FPR<=0.05
+Chosen threshold: 0.649098 | ok_constraints=True
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.9102    0.9499    0.9296     11200
+           1     0.9760    0.9560    0.9659     23869
+
+    accuracy                         0.9541     35069
+   macro avg     0.9431    0.9530    0.9478     35069
+weighted avg     0.9550    0.9541    0.9543     35069
+
+
+Confusion matrix [[TN FP],[FN TP]]:
+[[10639   561]
+ [ 1050 22819]]

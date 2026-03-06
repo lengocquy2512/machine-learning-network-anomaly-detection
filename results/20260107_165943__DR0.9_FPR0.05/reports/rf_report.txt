@@ -1,0 +1,18 @@
+=== RANDOM FOREST REPORT ===
+Constraints: DR>=0.9, FPR<=0.05
+Chosen threshold: 0.641094 | ok_constraints=True
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.9138    0.9523    0.9327     11200
+           1     0.9772    0.9579    0.9674     23869
+
+    accuracy                         0.9561     35069
+   macro avg     0.9455    0.9551    0.9500     35069
+weighted avg     0.9569    0.9561    0.9563     35069
+
+
+Confusion matrix [[TN FP],[FN TP]]:
+[[10666   534]
+ [ 1006 22863]]

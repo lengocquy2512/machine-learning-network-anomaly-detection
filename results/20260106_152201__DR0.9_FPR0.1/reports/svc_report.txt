@@ -1,0 +1,18 @@
+=== SVC REPORT ===
+Constraints: DR>=0.9, FPR<=0.1
+Chosen threshold: -0.393514 | ok_constraints=True
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.9131    0.9023    0.9077     11200
+           1     0.9544    0.9597    0.9571     23869
+
+    accuracy                         0.9414     35069
+   macro avg     0.9338    0.9310    0.9324     35069
+weighted avg     0.9412    0.9414    0.9413     35069
+
+
+Confusion matrix [[TN FP],[FN TP]]:
+[[10106  1094]
+ [  962 22907]]

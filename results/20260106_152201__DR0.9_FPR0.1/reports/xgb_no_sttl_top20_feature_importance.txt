@@ -1,0 +1,24 @@
+XGB Feature Importance (Top 20) - NO sttl
+Top 20
+
+         feature  importance
+           dload  378.191803
+       proto_arp  377.645630
+       state_CON  162.779327
+    proto_others  151.386917
+           sload  129.498856
+     service_dns  123.068832
+            swin  114.750542
+ is_sm_ips_ports  111.644684
+ct_dst_sport_ltm  100.239983
+          synack   97.022408
+       state_FIN   89.192612
+      ct_srv_dst   74.127937
+     service_ssh   68.556046
+service_ftp-data   66.387299
+       proto_tcp   61.053116
+           dloss   53.710842
+      proto_ospf   49.604836
+           smean   40.613564
+       proto_udp   32.980896
+  ct_dst_src_ltm   30.731628

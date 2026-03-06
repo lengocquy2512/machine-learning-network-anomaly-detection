@@ -1,0 +1,19 @@
+=== XGBOOST (NO STTL) REPORT ===
+Dropped: ['sttl', 'dttl', 'ct_state_ttl']
+Constraints: DR>=0.9, FPR<=0.1
+Chosen threshold: 0.529018 | ok_constraints=True
+
+Classification report:
+              precision    recall  f1-score   support
+
+           0     0.9451    0.9237    0.9343     11200
+           1     0.9646    0.9748    0.9697     23869
+
+    accuracy                         0.9585     35069
+   macro avg     0.9548    0.9493    0.9520     35069
+weighted avg     0.9584    0.9585    0.9584     35069
+
+
+Confusion matrix [[TN FP],[FN TP]]:
+[[10346   854]
+ [  601 23268]]
