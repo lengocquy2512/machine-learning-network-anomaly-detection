@@ -248,20 +248,28 @@ machine-learning-network-anomaly-detection
 # 10. Chạy ứng dụng Streamlit
 
 ## Tạo virtual environment (Python >= 3.9)
+```
 python -m venv venv
-
+```
 Kích hoạt môi trường
 Linux / MacOS
-  source venv/bin/activate
+```
+source venv/bin/activate
+```
 Windows (PowerShell)
-  venv\Scripts\Activate.ps1
+```
+venv\Scripts\Activate.ps1
+```
 
 Cài đặt thư viện
-  pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 Chạy ứng dụng
-  streamlit run app.py
-
+```
+streamlit run app.py
+```
 Sử dụng
 
 Upload file CSV thô của UNSW-NB15:
