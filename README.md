@@ -222,6 +222,7 @@ Mô hình được chọn:
 
 # 9. Cấu trúc project
 machine-learning-network-anomaly-detection
+```
 │
 ├── data
 │ ├── raw
@@ -242,7 +243,7 @@ machine-learning-network-anomaly-detection
 │
 └── README.md
 
-
+```
 ---
 
 # 10. Chạy ứng dụng Streamlit
